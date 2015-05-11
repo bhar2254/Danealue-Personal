@@ -1,6 +1,6 @@
 <?php
 $pageTitle = $_GET["title"];
-$prependPath = "/danealue";
+$prependPath = "/var/www/danealue";
 $prependCSSPath = null;
 include($prependPath."/base/header.html");
 include($prependPath."/galleries/" . $_GET["gallery"] . ".php");
