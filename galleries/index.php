@@ -1,8 +1,8 @@
 <?php
 $pageTitle = $_GET["title"];
-$prependPath = "./";
+$prependPath = "/";
 $prependCSSPath = null;
-include("../base/header.html");
-include("../galleries/" . $_GET["gallery"] . ".php");
-include("../base/footer.html");
+include("/base/header.html");
+include("/galleries/" . $_GET["gallery"] . ".php");
+include("/base/footer.html");
 ?>
