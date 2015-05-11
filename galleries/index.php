@@ -1,8 +1,8 @@
 <?php
 $pageTitle = $_GET["title"];
-$prependPath = "/";
+$prependPath = "/danealue";
 $prependCSSPath = null;
-include("/base/header.html");
-include("/galleries/" . $_GET["gallery"] . ".php");
-include("/base/footer.html");
+include($prependPath."/base/header.html");
+include($prependPath."/galleries/" . $_GET["gallery"] . ".php");
+include($prependPath."/base/footer.html");
 ?>
